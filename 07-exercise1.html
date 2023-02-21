@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const pricelist = [15, 20, 25, 40, 30, 5]
+        
+        function sumArray(array) {
+        let price = 0
+
+        array.forEach(item => {
+        price += item
+        })
+
+        console.log(price)
+        return price
+        }
+
+        let total = sumArray(pricelist) * 1.21
+        console.log(total)
+    </script>
+</body>
+</html>
